@@ -40,13 +40,16 @@ function parseComponent(component, filename) {
     path.basename(componentPath, path.extname(componentPath)) +
     shortname +
     renderer.extension;
+  const githubUri = `https://github.com/nusantech-react/kapalapi-ui/tree/master/src/components/${
+    shortname.split('/')[2].split('.')[0]
+  }`;
   const componentName =
     shortname.split('/')[2].split('.')[0] + renderer.extension;
   componentInfo.filename = shortname;
   fs.appendFileSync(
     './docs/index.md',
     `
-[${componentName}](https://nusantech-react.github.io/kapalapi-ui/components/${componentName})\n\n
+[${componentName}](${githubUri})\n\n
 `
   );
   fs.writeFile(

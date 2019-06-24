@@ -15,10 +15,10 @@ import component yang dibutuhkan dari package ini dan gunakan dalam project
 ## Components
 
 
-[Avatar.md](https://nusantech-react.github.io/kapalapi-ui/components/Avatar.md)
+[Image.md](https://github.com/nusantech-react/kapalapi-ui/tree/master/src/components/Image)
 
 
 
-[Image.md](https://nusantech-react.github.io/kapalapi-ui/components/Image.md)
+[Avatar.md](https://github.com/nusantech-react/kapalapi-ui/tree/master/src/components/Avatar)
 
 

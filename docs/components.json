@@ -1,6 +1,34 @@
 [
   {
     "description": "",
+    "displayName": "ResponsiveImage",
+    "methods": [
+      {
+        "name": "setNativeProps",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "nativeProps",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "component": {
+        "defaultValue": {
+          "value": "Image",
+          "computed": true
+        },
+        "required": false
+      }
+    },
+    "filename": "/components/Image/index.js"
+  },
+  {
+    "description": "",
     "displayName": "Avatar",
     "methods": [],
     "props": {
@@ -65,33 +93,5 @@
       }
     },
     "filename": "/components/Avatar/index.js"
-  },
-  {
-    "description": "",
-    "displayName": "ResponsiveImage",
-    "methods": [
-      {
-        "name": "setNativeProps",
-        "docblock": null,
-        "modifiers": [],
-        "params": [
-          {
-            "name": "nativeProps",
-            "type": null
-          }
-        ],
-        "returns": null
-      }
-    ],
-    "props": {
-      "component": {
-        "defaultValue": {
-          "value": "Image",
-          "computed": true
-        },
-        "required": false
-      }
-    },
-    "filename": "/components/Image/index.js"
   }
 ]
