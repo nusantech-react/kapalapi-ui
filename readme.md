@@ -39,5 +39,6 @@ export default App;
 
 1. pindah ke directory `kapalapi-ui`
 2. untuk track version, ada baiknya ubah `version` di `package.json`. misal dari `0.0.1` ke `0.0.2`
-3. commit perubahan `git commit -am "message"`
-4. push ke git `git push origin master`
+3. run script untuk membuat dokumentasi `node buildDoc.js`
+4. commit perubahan `git commit -am "message"`
+5. push ke git `git push origin master`

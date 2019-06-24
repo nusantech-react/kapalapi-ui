@@ -90,9 +90,16 @@ function filewalker(dir, done) {
   const mainTemplate = `
 # KapalApi Project's UI
 
-## Docs
+## Cara install
 
-(Read Here)[https://github.com/nusantech-react/kapalapi-ui/blob/master/readme.md]
+run \`npm install nusantech-react/kapalapi-ui\`
+
+## Cara Pakai
+
+import component yang dibutuhkan dari package ini dan gunakan dalam project
+## Docs dan local development
+
+[Read Here](https://github.com/nusantech-react/kapalapi-ui/blob/master/readme.md)
   
 ## Components\n
 `;
