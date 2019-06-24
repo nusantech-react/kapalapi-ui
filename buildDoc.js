@@ -43,6 +43,10 @@ function parseComponent(component, filename) {
   const componentName =
     shortname.split('/')[2].split('.')[0] + renderer.extension;
   componentInfo.filename = shortname;
+  fs.appendFileSync(
+    './docs/index.md',
+    `(${componentName})[https://nusantech-react.github.io/kapalapi-ui/components/${componentName}]\n\n`
+  );
   fs.writeFile(
     `./docs/components/${componentName}`,
     renderer.render(
@@ -80,6 +84,18 @@ function loadComponent(file, resolve) {
  */
 function filewalker(dir, done) {
   let results = [];
+  const dira = fs.readdirSync(dir);
+  const mainTemplate = `
+  # KapalApi Project's UI
+
+  ## Docs
+  
+  (Read Here)[https://github.com/nusantech-react/kapalapi-ui/blob/master/readme.md]
+  
+  ## Components
+  \n
+  `;
+  fs.writeFileSync('./docs/index.md', mainTemplate);
   fs.readdir(dir, async (err, list) => {
     if (err) return done(err);
     let pending = list.length;

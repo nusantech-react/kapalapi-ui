@@ -1,18 +1,97 @@
 [
   {
-    "description": "Test Component Description",
-    "displayName": "Test",
+    "description": "",
+    "displayName": "Avatar",
     "methods": [],
     "props": {
-      "text": {
+      "source": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "size": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "name": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "customSize": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": ""
+      },
+      "resizeMode": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "containerStyle": {
         "type": {
           "name": "custom",
-          "raw": "PropTypes.string"
+          "raw": "ViewPropTypes.style"
+        },
+        "required": false,
+        "description": ""
+      },
+      "avatarStyle": {
+        "type": {
+          "name": "custom",
+          "raw": "ViewPropTypes.style"
+        },
+        "required": false,
+        "description": ""
+      },
+      "textStyle": {
+        "type": {
+          "name": "custom",
+          "raw": "ViewPropTypes.style"
         },
         "required": false,
         "description": ""
       }
     },
-    "filename": "/components/Test.js"
+    "filename": "/components/Avatar/index.js"
+  },
+  {
+    "description": "",
+    "displayName": "ResponsiveImage",
+    "methods": [
+      {
+        "name": "setNativeProps",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "nativeProps",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "component": {
+        "defaultValue": {
+          "value": "Image",
+          "computed": true
+        },
+        "required": false
+      }
+    },
+    "filename": "/components/Image/index.js"
   }
 ]
