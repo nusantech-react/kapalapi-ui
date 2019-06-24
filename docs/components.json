@@ -1,0 +1,18 @@
+[
+  {
+    "description": "Test Component Description",
+    "displayName": "Test",
+    "methods": [],
+    "props": {
+      "text": {
+        "type": {
+          "name": "custom",
+          "raw": "PropTypes.string"
+        },
+        "required": false,
+        "description": ""
+      }
+    },
+    "filename": "/components/Test.js"
+  }
+]
