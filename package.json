@@ -1,0 +1,25 @@
+{
+  "name": "kapalapi-ui",
+  "version": "1.0.0",
+  "description": "ui for project kapal api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "react": "16.8.3",
+    "react-native": "0.59.9",
+    "@babel/core": "^7.4.5",
+    "@babel/runtime": "^7.4.5",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "peerDependencies": {
+    "react": ">=16.4.1",
+    "react-native": ">=0.56.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
