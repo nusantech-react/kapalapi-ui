@@ -42,7 +42,7 @@ function parseComponent(component, filename) {
     renderer.extension;
   const githubUri = `https://github.com/nusantech-react/kapalapi-ui/tree/master/src/components/${
     shortname.split('/')[2].split('.')[0]
-  }`;
+  }/index.js`;
   const componentName =
     shortname.split('/')[2].split('.')[0] + renderer.extension;
   componentInfo.filename = shortname;
