@@ -46,7 +46,7 @@ function parseComponent(component, filename) {
   fs.appendFileSync(
     './docs/index.md',
     `
-(${componentName})[https://nusantech-react.github.io/kapalapi-ui/components/${componentName}]\n\n
+[${componentName}](https://nusantech-react.github.io/kapalapi-ui/components/${componentName})\n\n
 `
   );
   fs.writeFile(
