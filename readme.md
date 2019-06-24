@@ -12,12 +12,13 @@ import component yang dibutuhkan dari package ini dan gunakan dalam project
 import { React } from 'react';
 import { Button } from 'kapalApi-ui';
 
-const App = () =>
-<View>
-<Button>Login</Button>
-</View>
+const App = () => (
+  <View>
+    <Button>Login</Button>
+  </View>
+);
 
-export default App;\
+export default App;
 ```
 
 ## Cara melakukan development terhadap library ini
